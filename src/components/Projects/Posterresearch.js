@@ -8,7 +8,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink ="https://raw.githubusercontent.com/ichrakhamdi/portfolio/main/src/Assets/posterichrak.pdf";
+const resumeLink ="https://raw.githubusercontent.com/ichrakhamdi/ichrakhamdi.github.io/main/src/Assets/posterichrak.pdf";
 
 function Poster() {
   const [width, setWidth] = useState(1200);
