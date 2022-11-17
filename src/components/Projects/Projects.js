@@ -6,6 +6,7 @@ import agg from "../../Assets/Projects/agg.png";
 import tun from "../../Assets/Tennis.png";
 import editor from "../../Assets/Projects/taquin.png";
 import chatify from "../../Assets/Projects/RL.jpeg";
+import dash from "../../Assets/Projects/dashboard.png";
 import rub from "../../Assets/rubiks.png";
 import bitsOfCode from "../../Assets/Projects/seg.png";
 import Poster from "./Posterresearch" // change
@@ -18,6 +19,18 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dash}
+              isBlog={false}
+              title="Movies_Dashboard"          
+              description="Building a dashboard to understand the performance of Movies using Power BI.Data visualization can help by delivering data in the most efficient way possible."
+              ghLink="https://github.com/ichrakhamdi/Movies_dashboard_PowerBI"
+          
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
