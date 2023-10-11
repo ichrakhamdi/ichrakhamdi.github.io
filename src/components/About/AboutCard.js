@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ichrak Hamdi </span>
             from <span className="purple"> Tunisia</span>
-            <br />I am a final year student in computer science engineering specialized in Artificial Intelligence and also a master's student in Smart Systems at the National School of Computer Science-ENSI.
+            <br />I am a computer science engineer specialized in Artificial Intelligence. Simultaneously, I have successfully completed a Research Master’s Degree in Smart Systems with high honors from the National School of Computer Science-ENSI.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

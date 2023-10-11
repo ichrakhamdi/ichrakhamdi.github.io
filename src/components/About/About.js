@@ -22,6 +22,15 @@ import a1 from "../../Assets/Projects/ARE/1jpg.jpg"
 import a2 from "../../Assets/Projects/ARE/2.jpg"
 import a3 from "../../Assets/Projects/ARE/3.jpg"
 import a4 from "../../Assets/Projects/ARE/4.jpg"
+import c1 from "../../Assets/Projects/canada/1.jpg"
+import c2 from "../../Assets/Projects/canada/2.jpg"
+import c3 from "../../Assets/Projects/canada/3.jpg"
+import c4 from "../../Assets/Projects/canada/4.jpg"
+import c5 from "../../Assets/Projects/canada/5.jpg"
+import g1 from "../../Assets/Projects/Graduation/1.jpg"
+import g2 from "../../Assets/Projects/Graduation/2.jpg"
+import g3 from "../../Assets/Projects/Graduation/3.jpg"
+import g4 from "../../Assets/Projects/Graduation/4.jpg"
 import Toolstack from "./Toolstack";
 import Projects from "./Projects";
 
@@ -67,6 +76,132 @@ function About() {
         </h1>
         <Toolstack />
 
+        <h1 className="project-heading">
+          <strong className="purple">My Graduation</strong>
+        </h1>
+
+        <p style={{ textAlign: "center" }}>
+        After six months in my research internship, I graduated as a <span className="purple"> Computer Science Engineer </span> specializing in Artificial Intelligence. <br/>In parallel, I completed a <span className="purple">Research Master's Degree</span> in Smart Systems with high honors.<br/> This dual achievement showcases my proficiency in both practical application and theoretical understanding within these fields.
+        </p>
+
+        <Carousel>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={g1}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={g2}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={g3}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={g4}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+        </Carousel>
+        <br />
+
+        <h1 className="project-heading">
+          <strong className="purple">My Research Internship at University of Quebec in Abitibi-Témiscamingue(UQAT)</strong>  </h1>
+        <p style={{ textAlign: "center" }}>
+        During my research internship, I spearheaded a comprehensive initiative focused on optimizing winter maintenance practices, <br/> with a particular emphasis on <span className="purple"> improving sidewalk snow removal efficiency.</span>
+        
+<br/>This internship not only honed my technical skills but also exposed me to a new country, new people, <br/>and the natural beauty of <span className="purple"> Rouyn-Noranda and Canada.</span> It was a transformative experience that enriched both my professional and personal growth.
+         
+        </p>
+
+
+        <Carousel>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={c1}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={c2}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={c3}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={c4}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center">
+              <img
+                className="d-block "
+                src={c5}
+                alt="First slide"
+                width="auto"
+                height="600"
+              />
+            </div>
+          </Carousel.Item>
+
+
+
+        </Carousel>
         <h1 className="project-heading">
           <strong className="purple">Deep Learning Indaba 2022</strong>
         </h1>

@@ -22,11 +22,12 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with programming and with the art of AI. In fact,I believe that if we can make computers more intelligent–and I want to be careful of AI hype–and understand the world and the environment better, it can make life so much better for many of us
               <br />
-              <br />I am passionate about 
+              <br />I am deeply passionate about 
               <i>
-                <b className="purple">Deep Learning, Convolutional Neural Networks, knowledge extraction from data and image processing in general </b>
-              </i>
-              <br />
+                <b className="purple"> Deep Learning,particularly Convolutional Neural Networks, and I thrive on extracting valuable insights from data, especially in the realm of image processing.  </b>
+              </i> <br />
+              My enthusiasm extends to AI in general, as I'm constantly seeking to push the boundaries of what's possible in this exciting field.
+             
               <br />
                I’m currently learning more about   &nbsp;
               <i>

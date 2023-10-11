@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import agg from "../../Assets/Projects/agg.png";
+import face from "../../Assets/Projects/face.JPG";
 import tun from "../../Assets/Tennis.png";
 import editor from "../../Assets/Projects/taquin.png";
 import chatify from "../../Assets/Projects/RL.jpeg";
@@ -19,6 +20,18 @@ function Projects() {
           My <strong className="purple">Projects </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={face}
+              isBlog={false}
+              title="Facial Emotion Detection"
+              description=" Developing an artificial intelligence system to detect and analyze human facial expressions in real-time. The project
+              involved image processing, machine learning, and data analysis"
+              ghLink="https://github.com/ichrakhamdi/Facialemotiondetection.git"
+          
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
